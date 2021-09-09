@@ -47,7 +47,7 @@
       <a href="index.html"><img src="logoindigo.png" width="90px" height="90px "></a>
         <div class="nav-links" id="navLinks">
           
- <dod> <i class="fa fa-times" onclick="hideMenu()"></i></dod> 
+ <dod> <i class="fa fa-times" id="x" onclick="hideMenu()"></i></dod> 
           <ul>
              <li id="li1"><a  id="list0" href="index.html">Home</a></li>
             
@@ -238,6 +238,7 @@
   var navLinks = document.getElementById("navLinks");
   var list = document.getElementById("list0");
  var n = true;
+ var x = document.getElementById("x");
  var btn = document.getElementById("btn");
   var li2 = document.getElementById("li2");
   var li3 = document.getElementById("li3");
@@ -296,6 +297,7 @@
     list0.style.visibility = "hidden"
     list1.style.visibility = "hidden"
     list2.style.visibility = "hidden"
+    x.style.visibility = "hidden"
     list3.style.visibility = "hidden"
     list4.style.visibility = "hidden"
     hr1.style.visibility = "hidden"
@@ -314,6 +316,7 @@
     li4.style.borderTop=   "";
     li5.style.borderTop=  "";
    n=true;
+   x.style.visibility = "hidden"
     list0.style.visibility = "hidden"
     list1.style.visibility = "hidden"
     list2.style.visibility = "hidden"
