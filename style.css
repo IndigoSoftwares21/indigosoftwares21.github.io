@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+html{
+  scroll-behavior: smooth;
+}
+.header{
+    min-height: 10vh;
+    width: 100%;
+    background-image: linear-gradient(#4b0082,#4b0082);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 0.1% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.sticky {
+  position: fixed;
+  
+ /* margin-bottom: 40px;*/
+
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+/*=============================About============*/
+#about{
+  display: flex;
+  padding-top: 20px;
+  height: max-content;
+
+  background: #4b0082;
+}
+#about h2{
+  padding-bottom: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
+}
+
+#about p{
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
+margin-top: 40px;
+padding-top: 10px;
+font-size: 17px;
+}
+.me{
+border-radius: 50%;
+width: 150px;
+margin-left: 20px;
+margin-right: 10px;
+
+margin-top: 10px;
+float:left;
+height: 150px;
+
+
+text-align: center;
+border: 3px solid #ff0;
+}
+ .me:hover {
+  filter: sepia(100%);
+
+}
+
+
+.nav-links{
+
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-align: center;
+    font-family: 'Audiowide', cursive; 
+}
+.nav-links ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+   
+}
+.nav-links ul li ::after{
+content: '';
+
+width: 0% ;
+height: 2px;
+
+background: #ff0;
+display: block;
+margin: auto;
+transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+
+ width: 100%;
+    
+   
+   
+}
+.maintitle
+{
+    
+  background: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 2px;
+  margin: 0px;
+  padding-top: 100px; 
+  
+}
+.maintitlex
+{
+    
+  background: rgb(255, 255, 255);
+  text-align: center;
+  padding-bottom: 2px;
+  margin: 0px;
+
+  
+}
+.nav-links ul  hr{
+  height: 3px;
+  visibility: hidden;
+   background: #fff;
+ }
+.mainbody
+{
+    
+  background:#4b0082;
+  text-align: center;
+  padding-top: 20px;
+  margin: 0px;
+  
+}
+.text-box{
+  text-align: center;
+}
+.mainbodyx
+{
+    
+  background:#4b0082;
+ text-align: left;
+  padding-top: 20px;
+  display: flex;
+  min-height: 50vh;
+}
+.text-box h1 kl{
+  font-size: 65px;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+.text-box h1 kx{
+  font-size: 30px;
+  padding-left: 2%;
+  padding-right: 2%;
+  
+  font-family: 'Fredoka One', cursive;
+}
+.text-box hr{
+   width: auto;
+   height: 5px;
+   
+  }
+  .text-box h1{
+   font-size: 23px;
+   padding-left: 2%;
+   padding-right: 2%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: 'Source Code Pro', monospacs;
+   font-weight: 400;
+   }
+   
+   .text-box h2{
+    font-size: 23px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 20px;
+    background: #4b0082;
+    color: #fff;
+    padding-bottom: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    }
+    .text-box h3{
+      font-size: 20px;
+      padding-left: 2%;
+      padding-right: 2%;
+      padding-top: 20px;
+     
+      color: #fff;
+      padding-bottom: 20px;
+     
+      font-family: 'Quicksand', sans-serif;
+
+      }
+      
+
+  .button {
+    border: 2px solid #4b0082;
+    background: #4b0082;
+    color: white;
+    padding: 15px 32px;
+    margin-bottom: 10PX;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+  }
+  .buttonx {
+    border: 2px solid #4b0082;
+    background: #4b0082;
+    color: white;
+    
+    margin-top: 10px;
+    padding: 15px 32px;
+    margin-bottom: 10PX;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+  }
+  
+  .button2 {
+    border: 2px solid #fff;
+    background: #fff;
+    color: #4b0082;
+    padding: 15px 32px;
+  margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 12px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+  }
+ 
+
+  .button:hover{
+    color: #000;
+    font-family: 'Source Code Pro', monospace;
+    background: #fff;
+    font-weight: 200;
+  
+  }
+  .buttonx:hover{
+    color: #000;
+    font-family: 'Source Code Pro', monospace;
+    background: #fff;
+    font-weight: 200;
+  
+  }
+  .button2:hover{
+    color: #FFF;
+    font-family: 'Source Code Pro', monospace;
+    background: #4b0082;
+    font-weight: 200;
+  
+  }
+
+  .text-box h1 kx{
+    font-size: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+    font-family: 'Fredoka One', cursive;
+  }
+  nav .fa{
+    display: none;
+  }
+  nav do {
+    display: none;
+  }
+  #heart{
+    color: #f00;
+  }
+.name{
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 24px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  padding-bottom: 10px;
+  border-bottom: dotted black;
+}
+.lister {
+    
+  text-align: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+    font-family: 'Source Code Pro', monospace;
+  font-weight: normal;
+  list-style-type: circle;
+  font-size: 17px;
+  font-style: normal;
+  border-bottom: dotted black;
+ }
+#icons{
+  color: white;
+  font-size: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#icons1{
+  color: white;
+  padding-top: 20px;
+  font-size: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+#icons2{
+  color: white;
+  font-size: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+#icons3{
+  color: white;
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#iconsx{
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+ @media (max-width: 700px) {
+  .mainbodyx
+  {
+      
+    background:#4b0082;
+    text-align: center;
+    padding-top: 20px;
+    
+  }
+  .me{
+   float: none;
+   text-align: center;
+   align-self: center;
+   width: 100px;
+   height: 100px;
+  }
+  #about{
+    text-align: center;
+  }
+  #about p{
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+  text-align: center;
+  }
+  #icons{
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #icons1{
+    color: white;
+    padding-top: 20px;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+  }
+  
+  #icons2{
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  #icons3{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .lister{
+    
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    padding-top: 5px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+font-style: normal;
+    
+    list-style-type: circle;
+    border-bottom: dotted black;
+   }
+   .name{
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    padding-bottom: 10px;
+    border-bottom: dotted black;
+  }
+  .text-box h1 kl{
+    font-size: 30px;
+  }
+  .text-box h1 {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .button{
+  font-size: 10px;
+  }
+  .buttonx{
+    font-size: 10px;
+    }
+  .button2 {
+    font-size: 10px;
+  }
+  .text-box h2 kl{
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .text-box h3 {
+    font-size: 15px;
+  }
+  nav img{
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    
+    }
+    .nav-links ul li{
+
+      text-align: left;
+      border-top:  0px solid black;
+      
+     
+    }
+    .nav-links ul li{
+      display: block;
+    }
+    .nav-links ul  hr{
+     height: 3px;
+     visibility: hidden;
+      background: #000;
+    }
+    .nav-links ul li a{
+      color: #000;
+      
+      visibility: hidden;
+    }
+  .nav-links{
+      position: absolute;
+      background: #dfe8f1;
+
+     height: max-content;
+     width: 0;
+     margin-right: 700px;
+  
+align-self: center;
+     right: 0px ;
+     border-radius: 10px;
+     top: 0;
+     margin-top: 100px;
+     
+     transition:.7s;
+     text-align: left;
+
+    }
+    .text-box h1 kx{
+      font-size: 18px;
+      padding-left: 2%;
+      padding-right: 2%;
+      
+      font-family: 'Fredoka One', cursive;
+    }
+    nav .fa{
+
+      display: block;
+      color: #fff;
+      margin: 10px;
+    text-align: right;
+    padding-right: 20px;
+      font-size: 22px;
+      cursor: pointer;
+    }
+
+    nav do{
+      display: block;
+      color: #fff;
+      margin: 10px;
+      font-size: 22px;
+      cursor: pointer;
+    }
+    nav ul{
+      padding: 10px;
+    }
+    
+ }
