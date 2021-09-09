@@ -125,7 +125,7 @@ transition: 0.5s;
   text-align: center;
   padding-bottom: 2px;
   margin: 0px;
- 
+  padding-top: 100px; 
   
 }
 .maintitlex
@@ -135,7 +135,7 @@ transition: 0.5s;
   text-align: center;
   padding-bottom: 2px;
   margin: 0px;
-  padding-top: 100px; 
+
   
 }
 .nav-links ul  hr{
