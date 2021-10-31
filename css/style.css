@@ -152,6 +152,7 @@ transition: 0.5s;
   margin: 0px;
   
 }
+
 .text-box{
   text-align: center;
 }
@@ -159,6 +160,7 @@ transition: 0.5s;
 {
     
   background:#4b0082;
+  
  text-align: left;
   padding-top: 20px;
   display: flex;
