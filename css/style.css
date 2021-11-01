@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-   
+   overflow-x: hidden;
 }
 html{
   scroll-behavior: smooth;
@@ -40,6 +40,7 @@ nav{
   display: flex;
   padding-top: 20px;
   height: max-content;
+  padding-bottom: 20px;
 
   background: #4b0082;
 }
@@ -363,7 +364,20 @@ transition: 0.5s;
   padding-top: 20px;
   padding-bottom: 20px;
 }
- @media (max-width: 700px) {
+.billd
+{
+ text-align: center;
+}
+
+.bill
+{
+width: 90%;
+}
+ @media (max-width: 768px) {
+  .bill
+  {
+  width: 90%;
+  }
   .mainbodyx
   {
       
@@ -381,6 +395,7 @@ transition: 0.5s;
   }
   #about{
     text-align: center;
+    
   }
   #about p{
     color: #fff;
