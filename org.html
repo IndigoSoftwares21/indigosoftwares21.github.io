@@ -366,14 +366,19 @@
      
 
 
-      <p><label class="txt" for="lan">What Do You Want?</label> </p>
+      <p><label  class="txt" for="lan">What Do You Want?</label> </p>
       
-    <p><select id="lan" name="lan">
+    <p><select onchange="other()"  id="lan" name="lan">
       <option value="Website">Website</option>
       <option value="Android App">Android App</option>
-      <option value="Other">Other</option>
+      <option  value="Other">Other</option>
+    </p> 
+
+
+      
+      <p> <input type="text" id="others" name="others" placeholder="Please Specify" required></p> 
      
-</select> </p>  
+</select>  
 
      
  
@@ -410,6 +415,29 @@
 
 <!------------------JavaScript for Toggle Menu------------------->
 <script>
+ function other()
+ {
+  var opt = document.getElementById("lan").value
+  var box = document.getElementById("others")
+  if (opt=="Other") {
+
+      box.style.visibility= "visible";
+    
+  }
+  else
+  {
+    box.style.visibility= "hidden";
+  }
+  
+
+   
+    
+  
+  
+  
+    
+  
+}
   var pass = 0;
 function validatePhoneNumber(input_str) {
     var re = /[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;

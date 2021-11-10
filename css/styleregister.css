@@ -82,6 +82,12 @@ input[type=text], select, textarea {
   margin-bottom: 16px; /* Bottom margin */
   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+#others
+{
+  visibility: hidden;
+  
+}
+
 .number{
   width: 90%; /* Full width */
   padding: 12px; /* Some padding */ 
@@ -401,7 +407,7 @@ transition: 0.5s;
       padding-left: 50px;
       padding-bottom: 20px;
     }
-    
+   
     #icons2{
       color: white;
       font-size: 40px;
