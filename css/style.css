@@ -364,6 +364,13 @@ transition: 0.5s;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+#iconsxy{
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .billd
 {
  text-align: center;
@@ -386,6 +393,7 @@ width: 90vw;
     padding-top: 20px;
     
   }
+  
   .me{
    float: none;
    text-align: center;
